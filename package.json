@@ -1,0 +1,20 @@
+{
+  "name": "social-media-application-using-express-node-framework",
+  "version": "1.0.0",
+  "description": "it is social Media Application Using Express Node framework",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Dhareppa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
